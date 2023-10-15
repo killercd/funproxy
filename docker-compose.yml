@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  funproxy:
+    container_name: funproxy
+    build: .
+    command: python funproxy.py
+    volumes:
+      - '.:/code'      
+    ports:
+      - '9000:9000'
