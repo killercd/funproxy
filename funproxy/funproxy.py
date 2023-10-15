@@ -96,8 +96,8 @@ if __name__ == '__main__':
                 {
                     "source_ip": "0.0.0.0",
                     "source_port": 9000,
-                    "destination_ip": "www.google.com",
-                    "destination_port": 443
+                    "destination_ip": "139.174.32.6",
+                    "destination_port": 21
                 }
             ]
         }
